@@ -32,6 +32,8 @@ function sortearAmigo() {
 function limparLista() {
   document.getElementById('listaAmigos').innerHTML = "";
   nomes = []
+  document.getElementById('amigo').value = ""
+
 }
 
 document.getElementById('amigo').addEventListener('input', function(){
